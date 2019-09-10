@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component name="MainScene" extends="Scene" initialFocus="LoginScreen">
+
+    <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+
+    <children>
+
+	    <LoginScreen
+	      	id="LoginScreen"
+	      	visible="true"
+	      	translation="[0,0]" />
+
+	    <UsernameScreen 
+	    	id="UsernameScreen"
+	      	visible="false"
+	      	translation="[0,0]"/>
+
+  	</children>
+
+</component>
