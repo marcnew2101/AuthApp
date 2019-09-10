@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<component name="MainScene" extends="Scene" initialFocus="LoginScreen">
+<component name="MainScene" extends="Scene">
 
     <script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
 
@@ -11,8 +11,18 @@
 	      	visible="true"
 	      	translation="[0,0]" />
 
+	    <PairingScreen
+	      	id="PairingScreen"
+	      	visible="false"
+	      	translation="[0,0]" />
+
 	    <UsernameScreen 
 	    	id="UsernameScreen"
+	      	visible="false"
+	      	translation="[0,0]"/>
+
+	    <PasswordScreen 
+	    	id="PasswordScreen"
 	      	visible="false"
 	      	translation="[0,0]"/>
 

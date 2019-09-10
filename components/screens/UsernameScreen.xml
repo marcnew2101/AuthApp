@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<component name="UsernameScreen" extends="Group">
+
+  <interface>
+    <field id="usernameButtonSelected" type="integer" alias="UsernameKeyboard.buttonSelected" />
+    <field id="usernameKeyboardText" type="string" alias="UsernameKeyboard.text" />
+  </interface>
+
+  <script type="text/brightscript" uri="pkg:/components/screens/UsernameScreen.brs" />
+
+  <children>
+
+    <KeyboardDialog id="UsernameKeyboard"/>
+
+  </children>
+
+</component>

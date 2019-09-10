@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component name="PairingScreen" extends="Group" >
+
+<interface>
+	<field id="pairingCode" type="string" />
+	<field id="pairingButtonSelected" type="integer" alias="PairingButtonGroup.buttonSelected" />
+</interface>
+
+<script type="text/brightscript" uri="pkg:/components/screens/PairingScreen.brs" />
+
+<children>
+	
+	<ButtonGroup id="PairingButtonGroup" />
+	
+	<Label id="PairingInstructions" />
+	
+	<Label id="PairingLabel" />
+
+</children>
+
+</component>

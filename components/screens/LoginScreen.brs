@@ -1,7 +1,6 @@
 function init()
-    'm.category_list=m.top.findNode("category_list")
     m.loginButtons = m.top.findNode("LoginButtonGroup")
-    m.loginButtons.buttons = ["Login", "Exit"]
+    m.loginButtons.buttons = ["Login with HardcoreGo Account", "Get Pairing Code", "Exit"]
     m.loginButtons.iconUri = ""
     m.loginButtons.focusedIconUri = ""
     m.loginButtons.translation = "[70, 450]"
